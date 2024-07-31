@@ -1,0 +1,6 @@
+docker build -t blazorwasm .
+docker run -d -p 8200:8080 --name blazorcont blazorwasm
+
+container docker status Exited(1)
+
+https://localhost:7119/
